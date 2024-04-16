@@ -20,6 +20,7 @@ def get_level():
 
 
 def generate_integer(level):
+    # Generate random numbers from different ranges based on the level inputed
     range = level -1
     start = [0, 10, 100]
     end = [9, 99, 999]
@@ -28,6 +29,7 @@ def generate_integer(level):
 
 
 def calculate(level):
+    # The user starts off with 10 points and gets 3 attepts per problem.
     score = int(10)
     for i in range(10):
         x = int(generate_integer(level))
