@@ -1,1 +1,1 @@
-Location of all my fin python projects
+Location of all my fun python projects
